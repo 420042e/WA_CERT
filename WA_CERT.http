@@ -1,0 +1,6 @@
+@WA_CERT_HostAddress = http://localhost:5026
+
+GET {{WA_CERT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
