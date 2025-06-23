@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Proyectos\\WA_CERT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\controllers\\servidorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:controllers\\servidorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\model\\servidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:model\\servidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Proyectos\\WA_CERT\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ServidorController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Controllers\\ServidorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServidorController.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Controllers\\ServidorController.cs",
+              "RelativeToolTip": "Controllers\\ServidorController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T12:45:28.758Z",
+              "WhenOpened": "2025-06-22T19:49:23.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "D:\\Proyectos\\WA_CERT\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T01:21:19.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T12:45:24.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T01:09:03.744Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Servidor.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Model\\Servidor.cs",
+              "RelativeDocumentMoniker": "Model\\Servidor.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Model\\Servidor.cs",
+              "RelativeToolTip": "Model\\Servidor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:02:09.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Proyectos\\WA_CERT\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T12:45:20.052Z",
               "EditorCaption": ""
