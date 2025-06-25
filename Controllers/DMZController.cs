@@ -7,12 +7,12 @@ namespace WA_CERT.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ServidorController : ControllerBase
+    public class DMZController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
         // El DbContext se inyecta automáticamente gracias a la configuración en Program.cs
-        public ServidorController(ApplicationDbContext context)
+        public DMZController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -27,7 +27,7 @@ namespace WA_CERT.Controllers
         }
 
         // Endpoint para llamar al Stored Procedure
-        [HttpGet("desarrollo")] // Ruta: api/Servidores/desarrollo
+        [HttpGet("certificacion")] // Ruta: api/Servidores/desarrollo
         public async Task<ActionResult<IEnumerable<Servidor>>> GetServidoresDeDesarrollo()
         {
             // --- ¡AQUÍ ESTÁ LA MAGIA! ---
@@ -35,7 +35,7 @@ namespace WA_CERT.Controllers
             // 1. Especifica el DbSet al que se mapearán los resultados.
             // 2. Llama a FromSqlRaw con el comando EXEC para tu SP.
             var servidores = await _context.Servidor
-                                           .FromSqlRaw("EXEC [dbo].[usp_ObtenerServidoresDev]")
+                                           .FromSqlRaw("EXEC [dbo].[usp_ObtenerServidoresDMZ]")
                                            .ToListAsync();
 
             // --- FIN DE LA MAGIA ---

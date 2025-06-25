@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WA_CERT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5633b3f45db13a39c480271fcbcd400a2eb09f3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b945d6acbbaf6d4a64adf87567e2d7d3ae6c5a35")]
 [assembly: System.Reflection.AssemblyProductAttribute("WA_CERT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WA_CERT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
