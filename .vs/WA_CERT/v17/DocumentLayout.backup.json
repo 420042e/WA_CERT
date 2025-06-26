@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Proyectos\\WA_CERT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\controllers\\bcrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:controllers\\bcrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\controllers\\bhicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:controllers\\bhicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\controllers\\dmzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:controllers\\dmzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\controllers\\btbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:controllers\\btbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|d:\\proyectos\\wa_cert\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{89EA80D7-DA19-43A9-83CF-B72981A76EB6}|WA_CERT.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -31,6 +47,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BCRController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Controllers\\BCRController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BCRController.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Controllers\\BCRController.cs",
+              "RelativeToolTip": "Controllers\\BCRController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:50:16.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BHIController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Controllers\\BHIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BHIController.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Controllers\\BHIController.cs",
+              "RelativeToolTip": "Controllers\\BHIController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:48:25.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DMZController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Controllers\\DMZController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DMZController.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Controllers\\DMZController.cs",
+              "RelativeToolTip": "Controllers\\DMZController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:45:23.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BTBController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Controllers\\BTBController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BTBController.cs",
+              "ToolTip": "D:\\Proyectos\\WA_CERT\\Controllers\\BTBController.cs",
+              "RelativeToolTip": "Controllers\\BTBController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:31:28.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -43,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -55,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Servidor.cs",
               "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Model\\Servidor.cs",
               "RelativeDocumentMoniker": "Model\\Servidor.cs",
@@ -67,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Proyectos\\WA_CERT\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

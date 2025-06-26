@@ -27,7 +27,7 @@ namespace WA_CERT.Controllers
         }
 
         // Endpoint para llamar al Stored Procedure
-        [HttpGet("certificacion")] // Ruta: api/Servidores/desarrollo
+        [HttpGet("produccionbtb")] // Ruta: api/Servidores/desarrollo
         public async Task<ActionResult<IEnumerable<Servidor>>> GetServidoresDeDesarrollo()
         {
             // --- ¡AQUÍ ESTÁ LA MAGIA! ---

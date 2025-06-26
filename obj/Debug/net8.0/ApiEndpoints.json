@@ -1,5 +1,137 @@
 [
   {
+    "ContainingType": "WA_CERT.Controllers.BCRController",
+    "Method": "GetCertificados",
+    "RelativePath": "api/BCR",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WA_CERT.Model.Servidor, WA_CERT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WA_CERT.Controllers.BCRController",
+    "Method": "PostCertificado",
+    "RelativePath": "api/BCR",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "certificado",
+        "Type": "WA_CERT.Model.Servidor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WA_CERT.Model.Servidor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WA_CERT.Controllers.BCRController",
+    "Method": "GetServidoresDeDesarrollo",
+    "RelativePath": "api/BCR/produccionbcr",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WA_CERT.Model.Servidor, WA_CERT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WA_CERT.Controllers.BHIController",
+    "Method": "GetCertificados",
+    "RelativePath": "api/BHI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WA_CERT.Model.Servidor, WA_CERT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WA_CERT.Controllers.BHIController",
+    "Method": "PostCertificado",
+    "RelativePath": "api/BHI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "certificado",
+        "Type": "WA_CERT.Model.Servidor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WA_CERT.Model.Servidor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WA_CERT.Controllers.BHIController",
+    "Method": "GetServidoresDeDesarrollo",
+    "RelativePath": "api/BHI/produccionbhi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WA_CERT.Model.Servidor, WA_CERT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WA_CERT.Controllers.BTBController",
     "Method": "GetCertificados",
     "RelativePath": "api/BTB",
@@ -48,7 +180,7 @@
   {
     "ContainingType": "WA_CERT.Controllers.BTBController",
     "Method": "GetServidoresDeDesarrollo",
-    "RelativePath": "api/BTB/certificacion",
+    "RelativePath": "api/BTB/produccionbtb",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -246,7 +378,7 @@
   {
     "ContainingType": "WA_CERT.Controllers.DMZController",
     "Method": "GetServidoresDeDesarrollo",
-    "RelativePath": "api/DMZ/certificacion",
+    "RelativePath": "api/DMZ/producciondmz",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
